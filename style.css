@@ -1,0 +1,432 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+header {
+  margin-top: 50px;
+}
+.container {
+  /* max-width: 1110px; */
+  margin: 30px 100px;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+
+  /* margin: 25px 100; */
+}
+.navbar {
+  display: flex;
+  font-size: 16px;
+  /* flex-direction: row;
+  justify-content: space-between;
+  align-items: center; */
+}
+.navbar div {
+  margin: 0 20px;
+}
+.links {
+  padding-left: 0px;
+  padding-right: 150px;
+  /* justify-content: center; */
+  /* text-align: center; */
+}
+.links a {
+  margin: 30px 20px 100px 20px;
+  /* display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+/* .btns {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+} */
+/* #log-in {
+  width: 46px;
+  height: 16px;
+  top: 64px;
+  left: 1044px;
+} */
+#btn {
+  /* position: absolute; */
+  width: 169px;
+  height: 48px;
+  right: 100px;
+  top: 48px;
+
+  background: #ece6ff;
+  border-radius: 4px;
+  margin: -20px 10px;
+}
+.section1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 100px;
+}
+.section-save {
+  display: flex;
+  flex-direction: row;
+  /* padding-top: 100px; */
+  /* left: 600px; */
+  padding-bottom: 30px;
+}
+.save {
+  color: white;
+  margin: 20;
+  display: flex;
+
+  align-items: center;
+  padding: 6px 10px 6px 10px;
+  position: absolute;
+  z-index: 1;
+  left: 600px;
+  width: 108px;
+  height: 32px;
+  border-radius: 100px;
+  background-color: #81c43b;
+}
+.acc {
+  display: flex;
+  margin: 20;
+  flex-direction: column;
+  align-items: center;
+  padding: 6px 20px 6px 20px;
+  background-color: #f2f9eb;
+  border-radius: 0 100px 100px 0;
+  position: absolute;
+  left: 700px;
+}
+.manage {
+  width: 750px;
+  text-align: center;
+  padding-top: 20px;
+  font-size: 64px;
+}
+.paragraph {
+  width: 550px;
+  /* margin: 20px 0; */
+  text-align: center;
+  color: #4e5a65;
+}
+/* .input1 {
+  margin: 0px;
+} */
+input {
+  width: 319px;
+  height: 52px;
+  background-color: white;
+  border: 1px;
+}
+::placeholder {
+  color: #97a5b5;
+  text-align: center;
+}
+#try {
+  width: 164px;
+  height: 52px;
+  color: white;
+  border: 1px;
+  background-color: #794cff;
+}
+.overview {
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+  text-align: center;
+}
+.trusted {
+  text-align: center;
+  margin-top: 70px;
+}
+.networks {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 30px;
+}
+.section2 {
+  width: 1519px;
+  height: 610px;
+  border-radius: 0px;
+  background-color: #fbfafe;
+  border: 1px #f0ebfa;
+  margin-top: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.timeline {
+  margin-top: 20px;
+}
+.text-on-he-right {
+  margin-top: 20px;
+  margin-right: 100px;
+}
+.text-on-he-right div {
+  width: 372px;
+  height: 128px;
+}
+.text1 h4 {
+  margin-left: 20px;
+}
+.text1 p {
+  margin-left: 20px;
+  font-size: 16px;
+}
+/* .text1 {
+  border-bottom: 1px solid #cacaca4f;
+} */
+.text1:hover {
+  /* box-sizing: border-xbox; */
+  /* position: absolute; */
+  /* width: 372px; */
+  /* height: 128px; */
+  background: #f6f3fc;
+  border: 1px solid #f6f3fc;
+  border-left: 8px solid #794cff;
+  border-radius: 0px 8px 8px 0px;
+  transition: 0.8s;
+}
+.easier {
+  text-align: center;
+  margin-top: 100px;
+  font-size: 40px;
+  color: #35414b;
+}
+.function1 div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.function1 {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.function1 h4 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.function2 div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.function2 {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+.function2 h4 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.section4 {
+  width: 1519px;
+  height: 540px;
+  border-radius: 0px;
+  background-color: #f0ebfa;
+  border: 1px #f0ebfa;
+  /* margin-top: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly; */
+}
+.section4 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.section4 img {
+  width: 597px;
+  height: 405px;
+  padding-right: 100px;
+}
+.section4__text h2 {
+  font-size: 40px;
+  line-height: 48px;
+  color: #35414b;
+}
+.section4__text span {
+  color: #4e5a65;
+}
+.section4__text button {
+  position: absolute;
+  width: 164px;
+  height: 52px;
+  /* left: 165px;
+top: 3210px; */
+
+  background: #796eff;
+  border-radius: 4px;
+  color: #ffffff;
+  border: none;
+}
+/* .section5__chupter1 {
+  text-align: center;
+  margin-top: 100px;
+}
+.section5__chupter1 h2 {
+  font-size: 40px;
+  line-height: 48px;
+  color: #35414b;
+  margin-bottom: 50px;
+}
+.section5__chupter1 span {
+  font-size: 18px;
+  line-height: 32px;
+  color: #4e5a65;
+}
+hr {
+  position: absolute;
+  margin-top: 50px;
+  width: 264px;
+  height: 4px;
+  left: 244px;
+  /* top: 3782px; */
+/* 
+  background: #35414b;
+} */
+/* .section5__chupter2 {
+  margin-top: 25px;
+}
+.section5__chupter2 div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+} */
+.section-6 {
+  display: flex;
+  flex-direction: column;
+}
+hr {
+  position: absolute;
+  margin-top: 400px;
+  width: 264px;
+  height: 4px;
+  left: 200px;
+  background: #35414b;
+}
+.command-text h2 {
+  text-align: center;
+  font-size: 40px;
+  line-height: 48px;
+  margin-top: 100px;
+  color: #35414b;
+}
+.command-text p {
+  text-align: center;
+  /* width: 450px; */
+  margin-top: 50px;
+  /* margin: 30px 320px; */
+  font-size: 18px;
+  line-height: 32px;
+  color: #4e5a65;
+}
+div.command {
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-evenly;
+}
+div.command a {
+  color: #4e5a65;
+}
+div.command div {
+  width: 300px;
+  margin-top: 30px;
+  padding: 20px 0px;
+}
+div.command img {
+  margin: 0px 15px;
+}
+div.command span {
+  position: absolute;
+}
+.command-block {
+  position: absolute;
+  width: 1110px;
+  height: 224px;
+  left: 200px;
+  margin-top: 600px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+
+  background: #796eff;
+  border-radius: 16px;
+}
+.command-block h2 {
+  font-size: 32px;
+  line-height: 48px;
+  color: white;
+}
+.footer {
+  position: absolute;
+  width: 1519px;
+  height: 417px;
+  left: 0;
+  margin-top: 360px;
+
+  background: #1d2830;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 80px;
+}
+.footer a {
+  text-decoration: none;
+  color: white;
+}
+.footer__1 {
+  display: flex;
+  flex-direction: column;
+}
+.footer__2 {
+  display: flex;
+  flex-direction: column;
+}
+.footer__3 {
+  display: flex;
+  flex-direction: column;
+}
+.footer__4 {
+  display: flex;
+  flex-direction: column;
+}
+.footer__4 {
+  color: #ffffff;
+}
+.footer a:hover {
+  font-weight: bold;
+  font-size: 20px;
+  transition: 1.3s;
+}
+#second {
+  position: absolute;
+  margin-top: 700px;
+  width: 1519px;
+  height: 3px;
+  left: 0px;
+  color: white;
+  opacity: 50%;
+}
+.footer_end {
+  margin-top: 20px;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+/* Здравствуйте, менторы!у меня никак не получилось написать код для блока, который ниже линии (hr) в блоке "footer-end".Удалять свои попытки не стала, могли бы посмотреть? */
